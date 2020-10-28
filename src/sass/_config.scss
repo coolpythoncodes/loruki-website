@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+$primary-color: #047aed;
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -35,8 +37,43 @@ img{
     width: 100%;
 }
 
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
 .flexbox{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gridcss{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: $primary-color;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+
+    &:hover{
+        transform:scale(0.98);
+    }
+}
+
+.btn-outline{
+    border: 1px solid #fff;
+    background: transparent;
 }
