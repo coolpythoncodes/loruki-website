@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import Cli from './component/Cli';
 import Navbar from './component/Navbar';
 import Showcase from './component/Showcase';
 import Stats from './component/Stats';
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Showcase />
       <Stats />
+      <Cli />
     </>
   );
 }
