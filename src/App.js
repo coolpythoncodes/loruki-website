@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './component/Navbar';
 import Showcase from './component/Showcase';
+import Stats from './component/Stats';
 
 function App() {
   return (
     <>
       <Navbar />
       <Showcase />
+      <Stats />
     </>
   );
 }
