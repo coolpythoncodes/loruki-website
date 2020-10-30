@@ -83,17 +83,31 @@ img{
 .bg-primary, .btn-primary{
     background: $primary-color;
     color:#fff;
+
+    & a{
+        color:#fff;
+    }
 }
 
 .bg-secondary, .btn-secondary{
     background: $secondary-color;
     color:#fff;
+
+    & a{
+        color:#fff;
+    }
 }
 
 .bg-dark, .btn-dark{
     background: $dark-color;
     color:#fff;
+
+    & a{
+        color:#fff;
+    }
 }
+
+
 .bg-light, .btn-light{
     background: $light-color;
     color:#333;

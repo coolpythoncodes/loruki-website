@@ -1,6 +1,7 @@
 import React from 'react';
 import Cli from './component/Cli';
 import Cloud from './component/Cloud';
+import Footer from './component/Footer';
 import Languages from './component/Languages';
 import Navbar from './component/Navbar';
 import Showcase from './component/Showcase';
@@ -15,6 +16,7 @@ function App() {
       <Cli />
       <Cloud />
       <Languages />
+      <Footer />
     </>
   );
 }

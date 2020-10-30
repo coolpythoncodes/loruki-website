@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUpload, faServer, faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
-// import { server, upload} from '@fortawesome/free-solid-svg-icons';
+import { faUpload, faServer, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+
 
 const Stats = () => {
     return (
