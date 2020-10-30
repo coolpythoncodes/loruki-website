@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 $primary-color: #047aed;
+$secondary-color: #1c3fa8;
+$dark-color: #002240;
+$light-color: #f4f4f4;
 
 *{
     box-sizing: border-box;
@@ -57,23 +60,6 @@ img{
     text-align: center;
 }
 
-
-
-.flexbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
 .btn{
     display: inline-block;
     padding: 10px 30px;
@@ -92,6 +78,63 @@ img{
     border: 1px solid #fff;
     background: transparent;
 }
+
+// Backgrounds and colored buttons
+.bg-primary, .btn-primary{
+    background: $primary-color;
+    color:#fff;
+}
+
+.bg-secondary, .btn-secondary{
+    background: $secondary-color;
+    color:#fff;
+}
+
+.bg-dark, .btn-dark{
+    background: $dark-color;
+    color:#fff;
+}
+.bg-light, .btn-light{
+    background: $light-color;
+    color:#333;
+}
+
+// Text sizes
+.lead{
+    font-size: 20px;
+}
+
+.sm{
+    font-size: 1rem;
+}
+
+.md{
+    font-size: 2rem;
+}
+
+.lg{
+    font-size: 3rem;
+}
+.xg{
+    font-size: 4rem;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
 
 // Margin
 .my-1{
