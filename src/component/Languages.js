@@ -15,7 +15,7 @@ const Languages = () => {
             <h1 className="md text-center my-2">
                 Supported Languages
             </h1>
-            <div className="container flex">
+            <div className="container flex py-2">
                 <div className="card">
                     <h4>Node.js</h4>
                     <img src={NodeImg} alt=""/>

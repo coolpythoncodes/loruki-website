@@ -1,22 +1,24 @@
 import React from 'react';
 import Cli from './component/Cli';
 import Cloud from './component/Cloud';
-import Footer from './component/Footer';
 import Languages from './component/Languages';
-import Navbar from './component/Navbar';
+import Layout from './component/Layout';
 import Showcase from './component/Showcase';
 import Stats from './component/Stats';
+
+
+import './sass/main.scss'
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Showcase />
-      <Stats />
-      <Cli />
-      <Cloud />
-      <Languages />
-      <Footer />
+      <Layout>
+        <Showcase />
+        <Stats />
+        <Cli />
+        <Cloud />
+        <Languages />
+      </Layout>
     </>
   );
 }

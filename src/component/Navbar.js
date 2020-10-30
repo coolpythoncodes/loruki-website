@@ -1,5 +1,5 @@
 import React from 'react';
-import './../sass/main.scss';
+
 
 const Navbar = () => {
     return (
