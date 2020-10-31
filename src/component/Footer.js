@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -14,13 +15,13 @@ const Footer = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="">Home</a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <a href="">Features</a>
+                            <Link to="/features">Features</Link>
                         </li>
                         <li>
-                            <a href="">Docs</a>
+                            <Link to="/docs">Docs</Link>
                         </li>
                     </ul>
                 </nav>
