@@ -15,12 +15,12 @@ const Showcase = () => {
                         <h1>Request a Demo </h1>
                         <form name='contact' method='POST' netlify-honeypot='bot-field' data-netlify='true'>
                             <input type="hidden" name="form-name" value='contact' />
-                            {/* <p className="hidden">
+                            <p className="hidden">
                                 <label htmlFor="">
                                     Don't fill this out if you're human:
                                     <input name='bot-field' />
                                 </label>
-                            </p> */}
+                            </p>
                             <div className="form-control">
                                 <input type="text" name="name" placeholder='Name' required/>
                             </div>
