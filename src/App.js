@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import {
   BrowserRouter as Router,
@@ -22,6 +22,10 @@ import Features from './pages/Features';
 import './sass/main.scss'
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Loruki | Cloud Hosting For Everyone';
+});
   return (
     <>
       <Router>

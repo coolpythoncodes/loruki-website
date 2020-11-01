@@ -2,6 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faInfo } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const DocsMain = () => {
     return (
@@ -11,18 +12,18 @@ const DocsMain = () => {
                     <h3 className="my-2">Essentials</h3>
                     <nav>
                         <ul>
-                            <li><a className='text-primary' href="#">Introduction</a></li>
-                            <li><a href="#">About Loruki</a></li>
-                            <li><a href="#">Installation</a></li>
+                            <li><Link to={{ hash: '#' }} className='text-primary' href="#">Introduction</Link></li>
+                            <li><Link  to={{ hash: '#' }}>About Loruki</Link></li>
+                            <li><Link to={{ hash: '#' }}>Installation</Link></li>
                         </ul>
                     </nav>
 
                     <h3 className="my-2">Deployment</h3>
                     <nav>
                         <ul>
-                            <li><a href="#">Setting up a container</a></li>
-                            <li><a href="#">Using the CLI</a></li>
-                            <li><a href="#">Installation</a></li>
+                            <li><Link to={{ hash: '#' }}>Setting up a container</Link></li>
+                            <li><Link to={{ hash: '#' }}>Using the CLI</Link></li>
+                            <li><Link to={{ hash: '#' }}>Installation</Link></li>
                         </ul>
                     </nav>
                 </div>
@@ -41,7 +42,7 @@ const DocsMain = () => {
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, fugiat ad quaerat quisquam pariatur ullam hic repudiandae doloribus laboriosam dignissimos.</p>
 
-                    <a href="#" className="btn btn-primary">Install CLI</a>
+                    <Link to={{ hash: '#' }} className="btn btn-primary">Install CLI</Link>
 
                     <h3>Requirements</h3>
 
