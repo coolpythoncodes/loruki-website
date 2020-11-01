@@ -32,6 +32,10 @@
     color: #fff;
     position: relative;
 
+    &-text{
+
+    }
+
     &::before, &::after{
         content:'';
         position: absolute;
@@ -91,6 +95,7 @@
 
 .stats{
     padding-top: 100px;
+
 
     &-heading{
         max-width: 500px;
@@ -238,7 +243,6 @@ footer{
   }
      
 }
-
 
 
 // Tablets and under
