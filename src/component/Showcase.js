@@ -13,7 +13,7 @@ const Showcase = () => {
 
                     <div className="showcase-form card">
                         <h1>Request a Demo </h1>
-                        <form name='contact' method='POST' netlify-honeypot='bot-field' data-netlify='true'>
+                        <form name='contact' method='POST'>
                             <input type="hidden" name="form-name" value='contact' />
                             <p className="hidden">
                                 <label htmlFor="">
